@@ -5,6 +5,7 @@ Proyecto de un analizador sintáctico en Node.js usando ANTLR.
 ## Contenido del repositorio
 
 - `Calculator.g4` - gramática del lenguaje.
+- `grammar.txt` - archivo de texto con la gramática asignada.
 - `index.js` - programa principal que lee la entrada, parsea y muestra el resultado.
 - `package.json` - dependencias y script de ejecución.
 - `generated/` - archivos generados por ANTLR (`CalculatorLexer.js`, `CalculatorParser.js`, etc.).

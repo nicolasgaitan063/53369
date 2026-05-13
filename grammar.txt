@@ -1,0 +1,25 @@
+Program ::= { SimpleStatement }
+
+SimpleStatement ::= SwitchStatement | AssignmentStatement | OutputStatement
+
+SwitchStatement ::= "switch" "(" Identifier ")" "{" { CaseSection } [ DefaultSection ] "}"
+
+CaseSection ::= "case" Constant ":" { SimpleStatement }
+
+DefaultSection ::= "default" ":" { SimpleStatement }
+
+AssignmentStatement ::= Identifier "=" Constant ";"
+
+OutputStatement ::= "output" "(" TextLiteral ")" ";"
+
+Constant ::= Number | TextLiteral
+
+TextLiteral ::= "\"" { any character except "\"" } "\""
+
+Identifier ::= letter { letter | digit | "_" }
+
+Number ::= digit { digit }
+
+letter ::= "a" | ... | "z" | "A" | ... | "Z"
+
+digit ::= "0" | ... | "9"
