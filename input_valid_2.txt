@@ -1,0 +1,6 @@
+switch(a){
+    case 1:
+        x = 5;
+    default:
+        output("fin");
+}
