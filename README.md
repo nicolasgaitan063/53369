@@ -1,4 +1,4 @@
-# Analizador ANTLR - Calculadora
+# 53369
 
 Proyecto de un analizador sintáctico en Node.js usando ANTLR.
 
@@ -68,3 +68,4 @@ switch(x){
 - `x = 10` es inválido porque falta el `;`.
 - `case` debe tener un valor después, por ejemplo `case 1:`.
 - Al hacer el repositorio, puedes subir primero la carpeta principal con `README.md`, `Calculator.g4`, `index.js`, `package.json`, `generated/`, `CustomCalculatorListener.js`, `CustomCalculatorVisitor.js` y luego agregar los archivos `.txt`.
+
